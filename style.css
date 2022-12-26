@@ -1,0 +1,724 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+
+}
+
+/* Making Navbar */
+#free-shipping {
+    background-color: rgb(66, 61, 57);
+    color: white;
+    text-align: center;
+    padding: 18px 0px;
+    font-size: 0.75em;
+}
+
+/* Making Home */
+#home::before {
+    content: "";
+    position: absolute;
+    background: url(/img/mainBackground.webp) no-repeat center center/cover;
+    top: 0;
+    left: 0;
+    height: 80%;
+    width: 100%;
+    z-index: -1;
+    opacity: 1;
+}
+
+#navbar2 {
+    display: flex;
+    padding: 20px;
+}
+
+#logo {
+    margin: 0px 70px;
+    font-weight: lighter;
+    letter-spacing: 0.5em;
+    cursor: pointer;
+}
+
+#navbar2 ul {
+    display: flex;
+    margin-left: 550px;
+}
+
+#navbar2 ul li {
+    padding: 0px 24px;
+    list-style: none;
+}
+
+#navbar2 ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 0.78em;
+    letter-spacing: 0.1em;
+}
+
+#navbar2 ul li a:hover {
+    text-decoration: underline;
+}
+
+#icons {
+    margin-left: 19px;
+    letter-spacing: 1.5em;
+}
+
+#icons i {
+    cursor: pointer;
+}
+
+#navbar2:hover {
+    background-color: white;
+    transition: all .3s ease;
+}
+
+#text {
+    max-width: 27vw;
+    margin: 130px 88px;
+}
+
+.homeText {
+    font-size: 2em;
+    line-height: 1.5em;
+    color: rgb(84, 79, 76);
+}
+
+.homePara {
+    font-size: 1em;
+    line-height: 1.5em;
+    color: rgb(84, 79, 76);
+}
+
+#btn {
+    background-color: rgb(202, 136, 110);
+    color: white;
+    margin-top: 14px;
+    padding: 10px 21px;
+    border: none;
+    cursor: pointer;
+}
+
+#btn span {
+    font-size: 1.3em;
+}
+
+#btn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all .4s ease;
+}
+
+/* MAKING SKINCARE SECTION */
+#skincare {
+    margin-top: 142px;
+    padding: 80px 88px;
+}
+
+#skincare-images {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 34px 0px;
+}
+
+.skinPara {
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 8px 14px;
+    position: absolute;
+    top: 93%;
+    left: 9%;
+}
+
+.bodyPara {
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 8px 14px;
+    position: absolute;
+    top: 93%;
+    left: 30.5%;
+}
+
+.hairPara {
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 8px 14px;
+    position: absolute;
+    top: 93%;
+    left: 52%;
+}
+
+.subPara {
+    background-color: white;
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    padding: 8px 14px;
+    position: absolute;
+    top: 93%;
+    left: 73.5%;
+}
+
+.skincareimg {
+    margin: 20px;
+    overflow: hidden;
+}
+
+.skincareimg img {
+    cursor: pointer;
+    transition: transform .8s ease;
+}
+
+.skincareimg img:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+#brands-images {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin: 0px 44px;
+
+}
+
+#brands-images img {
+    margin-bottom: 14px;
+}
+
+#brands-images p {
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 1.8em;
+}
+
+.newYork-para {
+    max-width: 17vw;
+}
+
+.coolHunting-para {
+    max-width: 15vw;
+}
+
+.forbes-para {
+    max-width: 14vw;
+}
+
+/* MAKING SLIDESHOW */
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 83vw;
+    position: relative;
+    margin: auto;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+.slideHead {
+    color: rgb(84, 79, 76);
+    font-size: 1.5em;
+    padding: 8px 12px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    max-width: 18vw;
+    line-height: 1.2em;
+}
+
+.slideHeadTarget {
+    color: rgb(84, 79, 76);
+    font-size: 1.5em;
+    padding: 8px 12px;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    max-width: 18vw;
+    line-height: 1.2em;
+}
+
+.slidePara {
+    color: rgb(84, 79, 76);
+    font-size: 1em;
+    padding: 0px 12px;
+    margin-top: 28px;
+    position: absolute;
+    max-width: 22vw;
+    top: 48%;
+    left: 10%;
+    line-height: 1.8em;
+}
+
+.slideParaTarget {
+    color: rgb(84, 79, 76);
+    font-size: 1em;
+    padding: 0px 12px;
+    position: absolute;
+    max-width: 20vw;
+    top: 48%;
+    left: 10%;
+    line-height: 1.8em;
+}
+
+.slideBtn {
+    background-color: rgb(202, 136, 110);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 65%;
+    left: 11%;
+    padding: 10px 14px;
+}
+
+.slideBtn:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all .5s ease;
+}
+
+.slideBtnTarget {
+    background-color: rgb(202, 136, 110);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 60%;
+    left: 11%;
+    padding: 10px 14px;
+}
+
+.slideBtnTarget:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all .5s ease;
+}
+
+.slideBtnMedit {
+    background-color: rgb(202, 136, 110);
+    color: white;
+    border: none;
+    position: absolute;
+    top: 70%;
+    left: 11%;
+    padding: 10px 14px;
+
+}
+
+.slideBtnMedit:hover {
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition: all .5s ease;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+#logos {
+    display: flex;
+    justify-content: space-around;
+    margin: 50px 70px;
+}
+
+#logos img {
+    height: 50px;
+}
+
+.badges {
+    display: flex;
+}
+
+.badges p {
+    color: rgb(74, 74, 74);
+    max-width: 9vw;
+    margin-left: 24px;
+    line-height: 1.5em;
+}
+
+hr {
+    max-width: 84vw;
+    margin: auto;
+}
+
+/* MAKING TRENDING SECTION */
+#trendingHead {
+    letter-spacing: 0.2em;
+    margin: 64px 0px;
+    color: rgb(74, 74, 74);
+    text-align: center;
+}
+
+#trendingHead span {
+    letter-spacing: 0;
+    font-size: 0.7em;
+    margin-left: 24px;
+}
+
+#trendingHead span:hover {
+    color: rgb(222, 182, 166);
+    cursor: pointer;
+}
+
+#productsImages {
+    margin: 0px 120px;
+    display: flex;
+    justify-content: space-around;
+    cursor: pointer;
+    margin-bottom: 84px;
+}
+
+.productImages-row {
+    overflow: hidden;
+    margin: 20px;
+}
+
+.productImages-row img {
+    height: 300px;
+    transition: transform .8s;
+}
+
+.productImages-row img:hover {
+    -ms-transform: scale(1.1);
+    /* IE 9 */
+    -webkit-transform: scale(1.1);
+    /* Safari 3-8 */
+    transform: scale(1.1);
+}
+
+.productImages-row p {
+    line-height: 3em;
+    text-align: center;
+    cursor: pointer;
+}
+
+.productImages-row p span {
+    cursor: pointer;
+    color: rgb(168, 168, 168);
+}
+
+.productImages-row p span:hover {
+    color: rgb(202, 136, 110);
+}
+
+.trendingBtn {
+    background-color: rgb(150, 139, 139);
+    color: white;
+    border: none;
+    padding: 7px 16px;
+    border-radius: 18px;
+    margin: 0px 84px;
+}
+
+.trendingBtn:hover {
+    background-color: rgb(184, 170, 150);
+    cursor: pointer;
+}
+
+/* MAKING INSTAGRAM SECTION */
+#ourInstagram {
+    margin-bottom: 75px;
+    ;
+}
+
+#instaHead {
+    letter-spacing: 0.2em;
+    margin: 64px 0px;
+    color: rgb(74, 74, 74);
+    text-align: center;
+}
+
+#instaHead span {
+    letter-spacing: 0;
+    font-size: 0.7em;
+    margin-left: 24px;
+}
+
+#instaHead span:hover {
+    color: rgb(222, 182, 166);
+    cursor: pointer;
+}
+
+#instaImages {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.instaPosts img {
+    cursor: pointer;
+    margin: 10px 21px;
+    max-height: 30vh;
+}
+
+/* icon with bg hover effect */
+.instaPosts {
+    transform: translate(0%, 0%);
+}
+
+.overlay {
+    max-height: 30.3vh;
+    max-width: 14.8vw;
+    position: absolute;
+    top: 3.5%;
+    left: 7.5%;
+    right: 0;
+    bottom: 0;
+    opacity: 0;
+    background: black;
+    cursor: pointer;
+}
+
+.icon {
+    position: absolute;
+    top: 38%;
+    left: 38%;
+    transform: translate(50%, 50%);
+    color: white;
+    font-size: 2em;
+}
+
+.instaPosts:hover .overlay {
+    opacity: 0.5;
+    transition: all .3s ease;
+}
+
+/* MAKING CONTACT SECTION */
+#contactUs {
+    background-color: rgb(234, 234, 234);
+    display: flex;
+    padding: 75px 0px;
+}
+
+#description {
+    margin-left: 115px;
+}
+
+#description h2 {
+    max-width: fit-content;
+    color: rgb(32, 32, 32);
+    margin-bottom: 100px;
+    letter-spacing: 0.4em;
+}
+
+#description h2 span {
+    margin-left: 18px;
+    padding: 6px 9.5px;
+    font-size: 1.1rem;
+    border-radius: 50%;
+    border: 2px solid rgb(214, 211, 211);
+    color: rgb(156, 133, 118);
+    letter-spacing: 0;
+    cursor: pointer;
+}
+
+#description h2 span:hover {
+    background-color: rgb(202, 136, 110);
+    border: 2px solid rgb(202, 136, 110);
+    transition: all .3s ease;
+    color: white;
+}
+
+#description p {
+    color: rgb(32, 32, 32);
+    max-width: 15vw;
+    line-height: 2em;
+    font-size: 0.8em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    color: #474747;
+    margin: 0px 2px;
+}
+
+#description p span {
+    cursor: pointer;
+}
+
+#description p span:hover {
+    color: rgb(202, 136, 110);
+}
+
+#talk {
+    margin-left: 155px;
+}
+
+#talk h2 {
+    color: rgb(32, 32, 32);
+    max-width: fit-content;
+    margin-bottom: 24px;
+    letter-spacing: 0.1em;
+}
+
+#talk p {
+    color: rgb(32, 32, 32);
+    max-width: 15vw;
+    line-height: 2em;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 0.1em;
+    color: #474747;
+}
+
+#stayUpdate {
+    margin-left: 75px;
+}
+
+#stayUpdate h2 {
+    color: rgb(32, 32, 32);
+    max-width: fit-content;
+    margin-bottom: 24px;
+    letter-spacing: 0.1em;
+}
+
+#stayUpdate p {
+    color: rgb(32, 32, 32);
+    max-width: 18vw;
+    line-height: 2em;
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 0.8em;
+    color: #474747;
+}
+
+#emailForm {
+    max-width: fit-content;
+}
+
+#emailForm input {
+    padding: 8px 14px;
+    font-weight: bold;
+    font-size: 0.9em;
+    border: none;
+    outline: none;
+    margin: 24px 0px;
+}
+
+#emailForm button {
+    position: absolute;
+    background-color: white;
+    border: none;
+    font-size: 1.5em;
+    padding: 2px 10px;
+    cursor: pointer;
+    margin: 24px 0px;
+}
+
+#emailForm button:hover {
+    background-color: rgb(202, 136, 110);
+    color: white;
+}
+
+#links {
+    margin-left: 75px;
+}
+
+#linkIcon {
+    margin-bottom: 24px;
+}
+
+#linkIcon a {
+    font-size: 1.3em;
+    margin-right: 12px;
+    color: #474747;
+}
+
+#linkIcon a:hover {
+    color: rgb(202, 136, 110);
+    transition: all .2s ease;
+}
+
+#linkAttach {
+    display: grid;
+}
+
+#linkAttach a {
+    margin: 9px 0px;
+    text-decoration: none;
+    color: #474747;
+    font-weight: bold;
+    font-size: 0.8em;
+}
+
+#linkAttach a:hover {
+    color: rgb(202, 136, 110);
+    transition: all .2s ease;
+}
+
+#credits {
+    text-align: center;
+    padding: 24px;
+    font-size: 0.8em;
+    background-color: #474747;
+    color: white;
+    letter-spacing: 0.1em;
+}

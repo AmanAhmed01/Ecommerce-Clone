@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Flow+Circular&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/ca0f7056f4.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Ecommerce Website | Project</title>
+</head>
+
+<body>
+    <!-- Making Navbar -->
+    <nav id="navbar">
+        <div id="free-shipping">
+            FREE SHIPPING ON ORDERS OVER $75
+        </div>
+    </nav>
+
+    <!-- MAKING HOME -->
+    <section id="home">
+        <nav id="navbar2">
+            <div id="logo">
+                <h1>MAAPILIM</h1>
+            </div>
+            <ul>
+                <li> <a href="#">SHOP</a> </li>
+                <li> <a href="#">GIFTS</a> </li>
+                <li> <a href="#">REWARDS</a> </li>
+                <li> <a href="#">SAND</a> </li>
+                <li> <a href="#">ABOUT</a> </li>
+            </ul>
+            <div id="icons">
+                <i class="fa fa-search"></i>
+                <i class="fa fa-user"></i>
+                <i class="fa fa-shopping-cart"></i>
+            </div>
+        </nav>
+        <div id="text">
+            <h1 class="homeText">
+                SELF-CARE ESSENTIALS FROM THE GREAT SEA
+            </h1>
+            <p class="homePara">Handcrafted skincare, haircare and wellness products. Created with natural ingredients
+                from the Mediterranean.</p>
+            <button id="btn">SHOP NOW <span> &#8594</span></button>
+        </div>
+    </section>
+
+    <!-- MAKING SKINCARE SECTION -->
+    <section id="skincare">
+        <div id="skincare-images">
+            <div class="skincareimg">
+                <p class="skinPara">SKINCARE</p>
+                <img src="/img/Face-Woman_600x300_crop_center.jpg" alt="">
+            </div>
+            <div class="skincareimg">
+                <p class="bodyPara">BODY</p>
+                <img src="/img/Body_600x300_crop_center.jpg" alt="">
+            </div>
+            <div class="skincareimg">
+                <p class="hairPara">HAIR</p>
+                <img src="/img/Hair_808307f1-af0a-46df-9976-e611545d9614_600x300_crop_center.jpg" alt="">
+            </div>
+            <div class="skincareimg">
+                <p class="subPara">SUBSCRIPTIONS</p>
+                <img src="/img/GFD_a803f4a3-e3f3-4c91-9156-6b87c6f4153c_600x300_crop_center.jpg" alt="">
+            </div>
+        </div>
+        <div id="brands-images">
+            <div class="newYork">
+                <img src="/img/ny_times_dab450a0-03ab-4f19-933b-349f5e455562.png" alt="">
+                <p class="newYork-para">A shower can be a transporting experience,
+                    especially when scented by ingredients
+                    found along the Mediterranean coast.</p>
+            </div>
+            <div class="coolHunting">
+                <img src="/img/Cool_Hunting_logo.png" alt="">
+                <p class="coolHunting-para">Maapilim’s products nourish the skin
+                    without clogging it or feeling heavy.</p>
+            </div>
+            <div class="forbes">
+                <img src="/img/Forbes_ac7b4c90-7212-4e26-95bc-26ab3e283c16.png" alt="">
+                <p class="forbes-para">Crafted from natural ingredients,
+                    these stylish products both smell and
+                    feel great on the skin.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAKING SLIDESHOW SECTION -->
+    <section id="slideshow">
+        <div class="slideshow-container">
+            <div class="mySlides fade">
+                <h2 class="slideHeadTarget">TARGETED SKINCARE</h2>
+                <p class="slideParaTarget">Discover our new collection of facial oils targeted for your skin needs.</p>
+                <button class="slideBtnTarget">SHOP NOW</button>
+                <img src="img/Gallery-Facial-Oils_1800x.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <h2 class="slideHead">GOOD FACE DAY SUBSCRIPTION</h2>
+                <p class="slidePara">Our solution to treat dark circles, wrinkles and a tired face.</p>
+                <button class="slideBtn">SUBSCRIBE NOW</button>
+                <img src="img/Gallery-GFD-Woman_53b38374-cabd-47ff-ad47-5338fa756419_1800x.jpg" style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <h2 class="slideHead">THE MEDITERRANEAN COLLECTION</h2>
+                <p class="slidePara">Embrace slow living with our limited edition collection, filled with hand-poured
+                    candles and luxurious room sprays.</p>
+                <button class="slideBtnMedit">SHOP NOW</button>
+                <img src="img/Gallery-Mediterranean-Collection_a5567a12-f3d4-4c40-95be-018d2c1d624a_1800x.jpg"
+                    style="width:100%">
+            </div>
+
+            <div class="mySlides fade">
+                <h2 class="slideHead">WHAT'S YOUR SKIN TYPE?</h2>
+                <p class="slidePara">Take our quick quiz to find out your skin type and the best skincare routine for
+                    your specific skin.</p>
+                <button class="slideBtn">TAKE QUIZ</button>
+                <img src="img/Gallery-Skin-type-quiz_133ccd3e-ef17-4a97-8c4e-b352fa7c57ab_1800x.jpg" style="width:100%">
+            </div>
+
+            <a class="prev" onclick="plusSlides(-1)">❮</a>
+            <a class="next" onclick="plusSlides(1)">❯</a>
+
+        </div>
+        <br>
+
+        <div style="text-align:center">
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+            <span class="dot"></span>
+        </div>
+        </div>
+        <div id="logos">
+            <div class="badges">
+                <img src="img/Icon-crafted_2x_a73eade9-aa64-4909-a27f-6ce9c6663bc8_500x.png" alt="">
+                <p>Crafted from natural ingredients</p>
+            </div>
+            <div class="badges">
+                <img src="img/bunny-1_500x.png" alt="">
+                <p>Not tested on animals</p>
+            </div>
+            <div class="badges">
+                <img src="img/Icon-returns_2x_12f24149-6689-4627-a7e8-91d89319cdff_500x.png" alt="">
+                <p>Free shipping on orders over $75</p>
+            </div>
+            <div class="badges">
+                <img src="img/Icon-secure_2x_50271cc9-7493-4aab-a34a-3e76d4d34ecc_500x.png" alt="">
+                <p>100% safe & secure checkout</p>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- MAKING TRENDING SECTION -->
+    <section id="trendingProducts">
+        <h2 id="trendingHead">TRENDING PRODUCTS <span>See All &#8594</span> </h2>
+        <div id="productsImages">
+            <div class="productImages-row">
+                <img src="/img/0-Thumbnail-GFD_700x700_crop_center.jpg" alt="">
+                <p>Good Face Day Kit <span>$75.00</span></p>
+                <button class="trendingBtn">ADD TO CART</button>
+            </div>
+            <div class="productImages-row">
+                <img src="/img/0-Thumbnail-Serum_700x700_crop_center.jpg" alt="">
+                <p>Serum with Hyaluronic Acid <span>$49.00</span></p>
+                <button class="trendingBtn">ADD TO CART</button>
+            </div>
+            <div class="productImages-row">
+                <img src="/img/0-Thumbnail-Candle_700x700_crop_center.jpg" alt="">
+                <p>Mediterranean Collection Candle <span>$59.00</span></p>
+                <button class="trendingBtn">ADD TO CART</button>
+            </div>
+            <div class="productImages-row">
+                <img src="/img/0-Thumbnail-Face-Cleanser-Bottle_700x700_crop_center.jpg" alt="">
+                <p>Face Cleanser <span>$18.00</span></p>
+                <button class="trendingBtn">ADD TO CART</button>
+            </div>
+        </div>
+        <hr>
+    </section>
+
+    <!-- MAKING INSTAGRAM SECTION    -->
+    <section id="ourInstagram">
+        <h2 id="instaHead">OUR INSTAGRAM <span>Follow Us &#8594</span> </h2>
+        <div id="instaImages">
+            <div class="instaPosts">
+                <img src="img/insta1_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta2_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta3_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta4_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta5_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta6_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta7_300x300.jpg" alt="">
+                <div class="overlay overlayFade">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta8_300x300.jpg" alt="">
+                <div class="overlay overlayFae">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta9_300x300.jpg" alt="">
+                <div class="overlay overlayFae">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+            <div class="instaPosts">
+                <img src="img/insta10_300x300.jpg" alt="">
+                <div class="overlay overlayFae">
+                    <div class="icon"> <i class="fa-brands fa-instagram"></i> </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- MAKING CONTACT SECTION -->
+    <section id="contactUs">
+        <div id="description">
+            <h2>MAAPILIM <span><i class="fa-solid fa-microphone"></i></span> </h2>
+            <p> <span>Skincare,</span> <span>Body,</span> <span>Wellness,</span> <span>Hair,</span>
+                <span>Grooming,</span> <span> Subscriptions.</span></p>
+        </div>
+        <div id="talk">
+            <h2>Talk to Us</h2>
+            <p>hello@clone.com <br> We usually reply within 48 hours</p>
+        </div>
+        <div id="stayUpdate">
+            <h2>Stay Updated</h2>
+            <p>Join our newsletter for updates about new products, skincare tips and special offers</p>
+            <div id="emailForm">
+                <input type="email" name="Email" id="email" placeholder="Email">
+                <button>&#8594</button>
+            </div>
+        </div>
+        <div id="links">
+            <div id="linkIcon">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></i></a>
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-pinterest-p"></i></a>
+            </div>
+            <div id="linkAttach">
+                <a href="#">FAQ</a>
+                <a href="#">Shipping / Return</a>
+                <a href="#">Find Us In Stores</a>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms of Use</a>
+                <a href="#">Join Our Team</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div id="credits">
+            &#169 Clone. All Rights Reserved / &#169 Maapilim Clone 2022
+        </div>
+    </footer>
+
+
+    <!-- SCRIPT FOR SLIDESHOW -->
+    <script>
+        let slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            let i;
+            let slides = document.getElementsByClassName("mySlides");
+            let dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+    </script>
+</body>
+
+</html>
